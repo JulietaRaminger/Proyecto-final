@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--link de iconos-->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!--bootstrap-->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!--link de css-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Dena diseño</title>
+</head>
+
+<body>
+  <!--Empieza barra menu-->
+  <nav class="container-fluid navegacion">
+    <div class="logo">DENA DISEÑO</div>
+    <!--menu mobile-->
+    <input type="checkbox" id="check-menu">
+    <ul class="nav">
+      <li class="menu">
+        <a href="./index.html">Inicio</a>
+      </li>
+      <li class="menu">
+        <a href="./productos.html">Productos</a>
+      </li>
+      <li class="menu">
+        <a href="./nosotros.html">Sobre nosotros</a>
+      </li>
+      <li class="menu">
+        <a href="./preguntas.html">Preguntas frecuentes</a>
+      </li>
+      <li class="menu">
+        <a href="./contacto.html">Contactanos</a>
+      </li>
+      <li class="menu">
+        <a href="./miscompras.html"><i class="bx bx-cart"></i></a>
+      </li>
+    </ul>
+    <label for="check-menu">
+      <i class='bx bx-menu'></i>
+    </label>
+  </nav>
+
+  <!--Empieza preguntas frecuentes-->
+  <section id="preguntas container">
+    <h1>Preguntas frecuentes</h1>
+    <h4 class="pregunta">¿Cuáles son las formas de pago?</h4>
+    <ul>
+      <li class="list">Mercado pago</li>
+      <li class="list">Transferencia bancaria</li>
+      <li class="list">Efectivo</li>
+    </ul>
+    <h4 class="pregunta">¿Cual es el costo del envio?</h4>
+    <p class="respuesta">
+      El costo del envío será mostrado en base al total de la compra y
+      ubicación, en el checkout, en el momento previo a la compra.
+    </p>
+    <h4 class="pregunta">¿Como se realizan los envios?</h4>
+    <p class="respuesta">Se realizan por:</p>
+    <ul>
+      <li class="list">Cadetería (valido unicamente para Salto)</li>
+      <li class="list">Correo</li>
+      <li class="list">Retiro gratis por el taller</li>
+    </ul>
+    <p class="importante">
+      IMPORTANTE: Una vez que el paquete es entregado al correo, el paquete
+      queda en manos de ellos, la pérdida del mismo por parte del correo que
+      hayas elegido elegido, o la demora del paquete en llegar, no es
+      responsabilidad nuestra. Al hacer la compra estás de acuerdo con esto.
+      Por lo tanto no nos hacemos cargo del extravío, ni demora de paquetes,
+      ya que es responsabilidad absoluta del correo. En caso de haber algún
+      problema con el correo elegido, podemos ayudarte a iniciar un reclamo,
+      pero no somos responsables de lo que suceda con el paquete estando en
+      manos de ellos, ni hacemos devoluciones de compras si el paquete se
+      extravió.
+    </p>
+    <h4 class="pregunta">¿Cuánto tarda en llegar el pedido?</h4>
+    <p class="respuesta">
+      El tiempo de entrega dependerá del tipo de envío seleccionado.
+      Mensajería la demora puede ser de 1 a 2 días hábiles. Correo puede
+      demorar entre 3 y 10 días hábiles En ambos casos, los pedidos se
+      despachan luego de acreditado el pago.
+    </p>
+    <h4 class="pregunta">¿Tienen puntos de entrega?</h4>
+    <p class="respuesta">
+      Si, podes retirar tu pedido por el taller. Los datos serán enviados
+      una vez realizado el pago.
+    </p>
+    <h4 class="pregunta">¿Puedo abonar en efectivo?</h4>
+    <p class="respuesta">
+      Si, podes abonar en efectivo retirando por el taller. Si es por
+      mensajería, antes de finalizar tu compra selecciona el método de pago
+      “acordar con el vendedor”.
+    </p>
+</section>
+
+  <!--Empieza footer-->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+
+        <section class="col-lg-6 col-md-6 col-sm-12 col-12 siguenos">
+          <h5>SIGUENOS</h5>
+          <ul>
+            <li class="link_item">
+              <a href="#"><i class="bx bxl-instagram"></i>Instagram</a>
+            </li>
+            <li class="link_item">
+              <a href="#"><i class="bx bxl-facebook"></i>Facebook</a>
+            </li>
+            <li class="link_item">
+              <a href="#"><i class="bx bxl-tiktok"></i>Tik-tok</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="col-lg-6 col-md-6 col-sm-12 col-12 suscribete">
+          <h5>SUSCRIBETE</h5>
+          <p class="registrarse">
+            ¡Suscribite y recibi todas nuestras novedades!
+          </p>
+        
+          <form action="" class="form-sub">
+            <div class="newsletter">
+              <input type="email" name="email" placeholder="ejemplo@gmai.com" required />
+              <button class="boton btn">Enviar</button>
+              </div>
+          </form>
+        </section>
+      </div>
+  </footer>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="derecho-autor">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <p class="autor">©, copyright @ 2023 JulietaRaminger</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--bootstrap js-->
+<script src="./js/bootstrap.js"></script>
+</body>
+</html>
