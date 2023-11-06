@@ -26,6 +26,7 @@ body {
   font-weight: bold;
   border-radius: 5px;
   text-align: center;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -74,7 +75,6 @@ body {
 }
 
 /*Logo*/
-
 .navegacion .logo {
   font-size: 20px;
   color: var(--blanco);
@@ -128,28 +128,41 @@ body {
   width: 100%;
 }
 
-h1 {
+h2 {
   color: var(--violeta);
   margin: 5% 1%;
   text-align: center;
+  font-weight: bold;
 }
 
 /*productos*/
-#productos .imagen {
-  margin-top: 30px;
+.productos {
   width: 100%;
-  height: 250px;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 50px;
+}
+
+.galeria .foto img {
+  width: 100%;
+  height: 60%;
   object-fit: cover;
   border: 3px solid var(--rosa);
 }
 
-#productos img:hover {
+.galeria .foto img:hover {
   box-shadow: 5px 5px 20px #6e4555;
 }
 
 .descripcion {
-  padding: 10px 0px;
-  text-align: center;
+  width: 100%;
+  height: 30%;
+  padding: 10px;
   color: var(--blanco);
   background-color: #6e4555;
   box-shadow: 5px 5px 20px #6e4555;
@@ -158,9 +171,10 @@ h1 {
 
 .descripcion h3 {
   font-size: 16px;
+  text-align: center;
 }
 
-/*Cominza sobre sonosotros*/
+/*Cominza sobre nosotros*/
 #nosotros .col-lg-6 .col-md-12 .col-sm-12 .col-6 {
   width: 100%;
   height: auto;
@@ -172,12 +186,9 @@ h1 {
   text-align: center;
 }
 
-#nosotros .taller img {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-shadow: 5px 5px 40px;
+video {
+  margin: 0 25%;
+  padding: 5% 0%;
 }
 
 .parrafo-pie {
@@ -292,6 +303,8 @@ textarea:focus {
   width: 100%;
   height: 160px;
   padding: 0;
+  margin: 0;
+  margin-top: 10%;
 }
 
 .footer h5 {
@@ -339,13 +352,12 @@ ul .link_item {
   text-align: center;
 }
 
-.form-sub .newsletter {
+.form-sub {
   width: 100%;
   text-align: center;
 }
 
 .newsletter input {
-  width: 50%;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -358,12 +370,9 @@ ul .link_item {
   color: var(--blanco);
   background-color: var(--violeta);
   border-top: 2px solid var(--rosa);
-  margin: 0;
-  padding: 0;
 }
 
 .derecho-autor .autor {
-  width: 100%;
   height: 20px;
   text-align: center;
   padding: 5px 0px;
@@ -408,6 +417,13 @@ ul .link_item {
     color: var(--blanco);
   }
 
+  /*Comienza productos*/
+
+  /*productos*/
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   /*Cominza sobre sonosotros*/
 
   .parrafo-pie {
@@ -428,7 +444,7 @@ ul .link_item {
   /*Comienza footer*/
 
   .footer {
-    height: 380px;
+    height: 400px;
   }
 
   .footer h5 {
@@ -465,12 +481,7 @@ ul .link_item {
   }
 
   .newsletter {
-    margin: 0px;
-    padding: 10px 50px;
-  }
-
-  .newsletter input {
-    width: 35%;
+    padding: 0 50px;
   }
 }
 
@@ -482,18 +493,8 @@ ul .link_item {
   }
 
   /*productos*/
-  #productos .imagen {
-    height: 150px;
-    object-fit: cover;
-  }
-
-  .descripcion {
-    width: 100%;
-    height: 100px;
-  }
-
-  .descripcion h3 {
-    font-size: 16px;
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /*preguntas frecuentes*/
@@ -541,7 +542,7 @@ ul .link_item {
 
   /*comienza footer*/
   .footer {
-    height: 310px;
+    height: 410px;
   }
 
   .footer h5 {
@@ -549,21 +550,18 @@ ul .link_item {
   }
 
   ul .link_item {
-    display: inline;
-    padding: 0px 10px;
+    text-align: center;
   }
 
   .footer .registrarse {
     text-align: center;
   }
 
-  .form-sub .newsletter {
-    text-align: center;
-  }
-
   .newsletter {
-    margin: 0px;
-    padding: 0px 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   .newsletter input {
