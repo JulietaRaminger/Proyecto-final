@@ -333,6 +333,9 @@ $colores: "";
 
     a {
         color: $color-rosa;
+        &:hover {
+            color: rgb(250, 250, 250);
+        }
     }
 
     .logo {

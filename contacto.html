@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Keywords-->
+  <meta name="keywords"
+    content="diseño de interiores, moda infantil, decoración para el hogar, productos de diseño, diseño creativo, estilo único, artículos decorativos, confección de alta calidad">
+  <!--Descripcion-->
+  <meta name="descripcion"
+    content="Conéctate con Dena Diseño: Encuentra nuestros datos de contacto, dirección, teléfono y correo electrónico. Síguenos en redes sociales para estar al tanto de nuestras novedades. Localízanos fácilmente 
+  en el mapa y descubre cómo contactarnos directamente. Estamos aquí para responder tus preguntas y atender tus necesidades. ¡Esperamos escucharte pronto!">
   <!--link de iconos-->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   <!--bootstrap-->
   <link rel="stylesheet" href="./css/bootstrap.css">
   <!--Favicon-->
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/iconos/favicon.ico">
+  <!--Animate css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!--link de css-->
   <link rel="stylesheet" href="./css/style.css" />
-  <title>Dena diseño</title>
+  <title>Contacto - Dena Diseño</title>
 </head>
 
 <body>
   <!--Empieza barra menu-->
   <nav class="container-fluid navegacion">
-    <div class="logo">DENA DISEÑO</div>
+    <div class="animate__animated animate__backInDown logo">DENA DISEÑO</div>
     <!--menu mobile-->
     <input type="checkbox" id="check-menu">
     <ul class="nav">
@@ -46,25 +57,24 @@
   </nav>
 
   <!--Empieza contacto-->
-  <h2>Contactanos</h2>
   <section id="contacto" class="container">
-    <section class="row">
+    <h1 class="titulo-2">Contactanos</h1>
+    <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-12 info">
         <ul>
-          <li><i class='bx bxs-map'></i>Artigas 323, Salto</li>
-          <li><i class='bx bx-envelope'></i>dena.diseño.deco@gmail.com</li>
-          <li><i class='bx bxl-whatsapp'></i>+598-99568681</li>
+          <li class="item mapa">Artigas 323, Salto</li>
+          <li class="item gmail">dena.diseño.deco@gmail.com</li>
+          <li class="item whatsapp">+598-99568681</li>
         </ul>
       </div>
-
-      <div class="col-lg-6 col-md-12 col-sm-12 col-12 map">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.951425181728!2d-57.97477292453218!3d-31.38790287427492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95adc2d2b2d5442b%3A0xda6da3d624f6db43!2sArtigas%20323%2C%2050000%20Salto%2C%20Departamento%20de%20Salto!5e0!3m2!1ses-419!2suy!4v1696883717269!5m2!1ses-419!2suy"
           width="400" height="500" style="border: 0" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
-      <form action="" class="col-lg-6 col-md-12 col-sm-12 col-12">
+      <form action="" class="col-lg-6 col-md-6 col-sm-12 col-12">
         <div class="formulario">
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required />
@@ -74,17 +84,18 @@
           <input type="text" id="email" name="email" placeholder="Ingrese su email" required />
         </div>
         <div class="formulario">
-          <label for="text">Ingresa tu mensaje</label>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje" required></textarea>
+          <label for="mensaje">Ingresa tu mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba aqui" required></textarea>
         </div>
         <div class="formulario">
-          <button class="boton boton-submit" type="submit" value="Enviar" required>Enviar</button>
+          <button class="boton-submit" type="submit" value="Enviar" required>Enviar</button>
         </div>
       </form>
-    </section>
+    </div>
   </section>
 
-   <!--Empieza footer-->
+
+  <!--Empieza footer-->
   <footer class="footer">
     <div class="container-fluid">
       <div class="row">
@@ -92,13 +103,16 @@
           <h5>SIGUENOS</h5>
           <ul>
             <li class="link_item">
-              <a href="https://instagram.com/dena.diseno.uy?igshid=YTQwZjQ0NmI0OA==" target="_blank"><i class="bx bxl-instagram"></i>Instagram</a>
+              <a href="https://instagram.com/dena.diseno.uy?igshid=YTQwZjQ0NmI0OA==" target="_blank"><i
+                  class="bx bxl-instagram instagram--color"></i>Instagram</a>
             </li>
             <li class="link_item">
-              <a href="https://www.facebook.com/dena.disenodeco?mibextid=ZbWKwL" target="_blank"><i class="bx bxl-facebook"></i>Facebook</a>
+              <a href="https://www.facebook.com/dena.disenodeco?mibextid=ZbWKwL" target="_blank"><i
+                  class="bx bxl-facebook facebook--color"></i>Facebook</a>
             </li>
             <li class="link_item">
-              <a href="https://www.tiktok.com/@dena.dis?_t=8h42nXON04c&_r=1" target="_blank"><i class="bx bxl-tiktok"></i>Tik-tok</a>
+              <a href="https://www.tiktok.com/@dena.dis?_t=8h42nXON04c&_r=1" target="_blank"><i
+                  class="bx bxl-tiktok tiktok--color"></i>Tik-tok</a>
             </li>
           </ul>
         </section>
@@ -106,32 +120,32 @@
         <section class="col-lg-6 col-md-6 col-sm-12 col-12 suscribete">
           <h5>SUSCRIBETE</h5>
           <p class="registrarse">
-            ¡Suscribite y recibi todas nuestras novedades!
+            ¡Suscribite y recibí todas nuestras novedades!
           </p>
-      
+
           <form action="" class="col-lg-12 col-md-12 col-sm-12 col-12 form-sub">
-            <div class="newsletter">
-              <input type="email" name="email" placeholder="ejemplo@gmai.com" required />
-              <button class="boton btn">Enviar</button>
-            </div>
+            <input type="email" name="email" placeholder="ejemplo@gmai.com" required />
+            <button class="btn">Enviar</button>
           </form>
         </section>
       </div>
-      </div>
+    </div>
   </footer>
 
   <section class="container-fluid">
     <div class="row">
-      <div class="derecho-autor">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-          <p class="autor">©, copyright @ 2023 JulietaRaminger</p>
-        </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 derecho-autor">
+        <p class="autor">©, copyright @ 2023 JulietaRaminger</p>
       </div>
     </div>
   </section>
 
-
   <!--bootstrap js-->
   <script src="./js/bootstrap.js"></script>
-  </body>
-  </html>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

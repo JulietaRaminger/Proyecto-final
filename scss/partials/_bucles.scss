@@ -1,4 +1,4 @@
-@for $i from 1 through 10 {
+@for $i from 1 through 3 {
     .titulo-#{$i} {
         font-size: 1rem * $i;
     }
@@ -11,7 +11,6 @@
         background-image: url("../img/iconos/#{$item}.png");
         background-repeat: no-repeat;
         padding: 5px 40px;
-
     }
 }
 
