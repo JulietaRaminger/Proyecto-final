@@ -87,11 +87,7 @@ body {
 
 .nav .menu {
   margin: 10px;
-}
-
-.menu a {
   color: var(--rosa);
-  text-decoration: none;
 }
 
 .nav .menu a:hover {
@@ -427,7 +423,6 @@ ul .link_item {
     padding: 0% 5%;
   
   }
-
 
   /*comienza contacto*/
   .info ul {
